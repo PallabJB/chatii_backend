@@ -137,7 +137,7 @@ const port = process.env.PORT || 3000;
 const server = http.createServer(app);
 const io = new Server(server, {
     cors: {
-        origin: 'https://chatiibypj.netlify.app/'
+        origin: 'https://chatiibypj.netlify.app'
     }
 });
 
